@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Formulario de Registro de Usuarios</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<form id="formulario">
+		<label for="nombre">Nombre:</label>
+		<input type="text" id="nombre" name="nombre" required>
+
+		<label for="apellido">Apellido:</label>
+		<input type="text" id="apellido" name="apellido" required>
+
+		<label for="cedula">Cédula:</label>
+		<input type="text" id="cedula" name="cedula" required pattern="\d+">
+
+		<label for="email">Email:</label>
+		<input type="email" id="email" name="email" required>
+
+		<label for="telefono">Teléfono:</label>
+		<input type="tel" id="telefono" name="telefono" required>
+
+		<button type="submit">Registrarse</button>
+	</form>
+
+	<button id="listar">Listar Usuarios</button>
+	
+	<table id="tabla">
+		<thead>
+			<tr>
+				<th>Nombre</th>
+				<th>Apellido</th>
+				<th>Cédula</th>
+				<th>Email</th>
+				<th>Teléfono</th>
+			</tr>
+		</thead>
+		<tbody>
+			
+		</tbody>
+	</table>
+	<script src="formulario.js"></script>
+</body>
+</html>

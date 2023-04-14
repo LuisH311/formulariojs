@@ -1,0 +1,76 @@
+@media screen and (max-width: 600px) {
+	form {
+		width: 90%;
+		margin: 0 auto;
+	}
+}
+#listar {
+	margin-top: 1em;
+	background-color: #235625;
+	color: #fff;
+	padding: 0.5em 1em;
+	border-radius: 5px;
+	border: none;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+#listar:hover {
+	background-color: #235625;
+}
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+th, td {
+	padding: 0.5em;
+	border: 1px solid #ccc;
+}
+th {
+	background-color: #235625;
+	color: #fff;
+}
+.error {
+	color: red;
+	font-size: 0.8em;
+	margin-top: 0.5em;
+}
+label {
+	display: inline-block;
+	margin-bottom: 0.5em;
+	font-weight: bold;
+	color: #000000;
+}
+
+button[type="submit"] {
+	background-color: #235625;
+	border: none;
+	color: #fff;
+	padding: 0.8em 1.5em;
+	border-radius: 0.5em;
+	text-shadow: 1px 1px 1px #666;
+	box-shadow: 2px 2px 2px #ccc;
+	cursor: pointer;
+  }
+  
+ 
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+	padding: 0.5em;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	margin-bottom: 1em;
+}
+input[type="submit"] {
+	background-color: #010101;
+	color: #fff;
+	padding: 0.5em 1em;
+	border-radius: 5px;
+	border: none;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+input[type="submit"]:hover {
+	background-color: #3e8e41;
+}
